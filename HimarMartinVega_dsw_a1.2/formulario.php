@@ -14,6 +14,17 @@
             <select><br>
             Asunto: <input type="text" name="asunto_usuario"><br>
             Descripción: <textarea name="descripcion_usuario"></textarea><br>
+            <label><b>Temas relacionados:</b></label><br>
+                <input type="checkbox" name="temas_usuario[]" value="Linux"> Linux<br>
+                <input type="checkbox" name="temas_usuario[]" value="Windows"> Windows<br>
+                <input type="checkbox" name="temas_usuario[]" value="PHP"> PHP<br>
+                <input type="checkbox" name="temas_usuario[]" value="HTML"> HTML<br>
+                <input type="checkbox" name="temas_usuario[]" value="Javascript"> Javascript<br>
+                <input type="checkbox" name="temas_usuario[]" value="Bash"> Bash<br>
+                <input type="checkbox" name="temas_usuario[]" value="Calificaciones"> Calificaciones<br>
+                <input type="checkbox" name="temas_usuario[]" value="Actividades"> Actividades<br>
+                <input type="checkbox" name="temas_usuario[]" value="Exámenes"> Exámenes<br>
+                <input type="checkbox" name="temas_usuario[]" value="Otros"> Otros<br>
             <input type="submit" value="Enviar">
         </form>
     </body>
